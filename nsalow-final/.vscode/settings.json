@@ -1,0 +1,27 @@
+
+    {
+        "window.zoomLevel": 0,
+        "files.autoSave": "afterDelay",
+        "git.enableSmartCommit": true,
+        "editor.formatOnSave": true,
+        "eslint.enable": true,
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "eslint.alwaysShowStatus": true,
+        "eslint.validate": [
+          "javascript",
+        ],
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "eslint.workingDirectories": [
+          {
+            "directory": "../Nicole-full-stack/",
+            "changeProcessCWD": true
+          },
+          {
+            "directory": "./nsalow-final/",
+            "changeProcessCWD": true
+          },
+          // etc
+        ],
+      }
