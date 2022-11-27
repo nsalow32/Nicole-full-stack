@@ -26,6 +26,7 @@ class Index extends React.Component {
         <Head>
           <title>Settings</title>
           <meta name="description" content="Welcome." />
+          <link rel="shortcut icon" href="/images/favicon.ico" />
         </Head>
         <p>Welcome to my ACSG Full Stack Final. - Nicole Salow</p>
         <p>The email you are logged in with:&nbsp;{user.email}</p>

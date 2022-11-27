@@ -3,9 +3,8 @@ import { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import Head from 'next/head';
 import Button from '@mui/material/Button';
-import { styleLoginButton, styleTextField, styleTimeStamp } from '../components/SharedStyles';
+import { styleLoginButton, styleTextField } from '../components/SharedStyles';
 import withAuth from '../lib/withAuth';
-import Header from '../components/Header';
 
 let socket;
 

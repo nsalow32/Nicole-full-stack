@@ -19,7 +19,7 @@ const Login = () => (
     <Button variant="contained" style={styleLoginButton} href="/auth/google">
       <img
         src="https://storage.googleapis.com/builderbook/G.svg"
-        alt="Log in with Google"
+        alt="Login with Google"
         style={{ marginRight: '10px' }}
       />
       Login with Google

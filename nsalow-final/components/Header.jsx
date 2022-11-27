@@ -10,10 +10,6 @@ import { styleToolbar } from './SharedStyles';
 
 const optionsMenu = [
   {
-    text: 'Got question?',
-    href: 'https://github.com/async-labs/builderbook/issues',
-  },
-  {
     text: 'Log out',
     href: '/logout',
     anchor: true,
@@ -38,13 +34,9 @@ function Header({ user }) {
         <Grid container direction="row" justifyContent="space-around" alignItems="center">
           <Grid item sm={11} xs={9} style={{ textAlign: 'left' }}>
             {user ? null : (
-              <Link href="/">
-                <Avatar
-                  src="https://storage.googleapis.com/builderbook/logo.svg"
-                  alt="Builder Book logo"
-                  style={{ margin: '0px auto 0px 20px', cursor: 'pointer' }}
-                />
-              </Link>
+              // <Link href="/">
+              <Avatar alt="logo" style={{ margin: '0px auto 0px 20px', cursor: 'pointer' }} />
+              // </Link>
             )}
           </Grid>
           <Grid item sm={1} xs={3} style={{ textAlign: 'right' }}>

@@ -38,6 +38,10 @@ class MyApp extends App {
           {/* ThemeProvider makes the theme available down the React tree thanks to React context. */}
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <Head>
+            <link rel="shortcut icon" href="/images/favicon.ico" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link
               rel="stylesheet"
