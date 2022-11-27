@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Button from '@mui/material/Button';
-import { Link } from 'react-router-dom';
+import { styleLoginButton } from '../components/SharedStyles';
 
 import withAuth from '../lib/withAuth';
 
@@ -25,12 +25,13 @@ class Index extends React.Component {
       <div style={{ padding: '10px 45px' }}>
         <Head>
           <title>Settings</title>
-          <meta name="description" content="Nicole's Final." />
+          <meta name="description" content="Welcome." />
         </Head>
-        <p>Welcome to my final for ACSG540 at SXU. - Nicole Salow</p>
-        <p>The email you are logged in with: {user.email}</p>
-        <Button component={Link} to="/chat">
-          Chat!
+        <p>Welcome to my ACSG Full Stack Final. - Nicole Salow</p>
+        <p>The email you are logged in with:&nbsp;{user.email}</p>
+
+        <Button variant="contained" style={styleLoginButton} href="/chat">
+          Chat now!
         </Button>
       </div>
     );

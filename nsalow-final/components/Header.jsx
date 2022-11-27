@@ -10,8 +10,8 @@ import { styleToolbar } from './SharedStyles';
 
 const optionsMenu = [
   {
-    text: 'Check out NS!',
-    href: 'https://www.nicolesalow.com',
+    text: 'Got question?',
+    href: 'https://github.com/async-labs/builderbook/issues',
   },
   {
     text: 'Log out',
@@ -40,7 +40,7 @@ function Header({ user }) {
             {user ? null : (
               <Link href="/">
                 <Avatar
-                  src="https://drive.google.com/file/d/1sHb4uH3iVI3NALvohSeLMoSGB5YXOx4I/view?usp=share_link"
+                  src="https://storage.googleapis.com/builderbook/logo.svg"
                   alt="Builder Book logo"
                   style={{ margin: '0px auto 0px 20px', cursor: 'pointer' }}
                 />
@@ -60,7 +60,7 @@ function Header({ user }) {
               </div>
             ) : (
               <Link href="/login">
-                <a style={{ margin: '0px 20px 0px auto' }}>LOGIN</a>
+                <a style={{ margin: '0px 20px 0px auto' }}>Log in</a>
               </Link>
             )}
           </Grid>

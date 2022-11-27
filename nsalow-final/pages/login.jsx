@@ -22,7 +22,7 @@ const Login = () => (
         alt="Log in with Google"
         style={{ marginRight: '10px' }}
       />
-      Log in with Google
+      Login with Google
     </Button>
   </div>
 );

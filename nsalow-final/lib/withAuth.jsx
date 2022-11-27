@@ -33,10 +33,10 @@ export default function withAuth(
         globalUser = user;
       }
 
-      /*       if (loginRequired && !logoutRequired && !user) {
+      if (loginRequired && !logoutRequired && !user) {
         Router.push('/public/login', '/login');
         return;
-      } */
+      }
 
       if (logoutRequired && user) {
         Router.push('/');

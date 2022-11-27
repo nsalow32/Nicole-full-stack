@@ -12,7 +12,7 @@ function setupGoogle({ server, ROOT_URL }) {
     }
 
     if (profile.photos && profile.photos.length > 0) {
-      avatarUrl = profile.photos[0].value.replace('sz=50', 'sz=150');
+      avatarUrl = profile.photos[0].value.replace('sz=50', 'sz=200');
     }
 
     try {
@@ -66,7 +66,7 @@ function setupGoogle({ server, ROOT_URL }) {
     passport.authenticate('google', {
       failureRedirect: '/login',
     }),
-    (_, res) => {
+    (req, res) => {
       res.redirect('/');
     },
   );
