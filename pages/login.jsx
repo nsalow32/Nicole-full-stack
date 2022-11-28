@@ -13,7 +13,8 @@ const Login = () => (
     <br />
     <p style={{ margin: '45px auto', fontSize: '44px', fontWeight: '400' }}>Login to chat!</p>
     <p>
-      You will automatically stay logged in for 14 days on this device unless you manually sign out.
+      This app keeps you auto-logged in for 14 days on this device. You mus manually log out or
+      anyone who uses this device can see what you have been doing!
     </p>
     <br />
     <Button variant="contained" style={styleLoginButton} href="/auth/google">

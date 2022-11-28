@@ -9,7 +9,7 @@ const setupGoogle = require('./google');
 require('dotenv').config();
 
 const dev = process.env.NODE_ENV !== 'production';
-const MONGO_URL = process.env.MONGO_URL_TEST;
+const { MONGO_URL } = process.env;
 
 const options = {
   useNewUrlParser: true,

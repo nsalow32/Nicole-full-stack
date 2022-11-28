@@ -4,7 +4,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Grid from '@mui/material/Grid';
 import Avatar from '@mui/material/Avatar';
 
-import MenuWithAvatar from './MenuWithAvatar';
+import MenuWithAvatar from './MenuWithAvatar.jsx';
 
 import { styleToolbar } from './SharedStyles';
 
