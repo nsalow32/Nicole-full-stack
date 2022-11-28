@@ -7,7 +7,7 @@ import { styleLoginButton } from '../components/SharedStyles';
 const Login = () => (
   <div style={{ textAlign: 'center', margin: '0 20px' }}>
     <Head>
-      <title>Login to chat!</title>
+      <title>LOGIN TO CHAT!</title>
       <meta name="description" content="Login page for Nicole's Final" />
     </Head>
     <br />
