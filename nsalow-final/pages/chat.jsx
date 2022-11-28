@@ -77,12 +77,12 @@ function ChatPage() {
     <div style={{ padding: '10px 45px 45px 45px' }}>
       <Head>
         <title>CHAT!</title>
-        <meta name="description" content="TWEETER, a twitter alternative made for Full Stack." />
+        <meta name="description" content="Nicole's Much Better Twitter (NMBT)" />
       </Head>
       <main>
         {!selectedUsername ? (
           <>
-            <h2>WELCOME TO TWEETER!</h2>
+            <h2>WELCOME TO NMBT!</h2>
             <h5> What do you want to display as your username?</h5>
             <input
               type="text"
