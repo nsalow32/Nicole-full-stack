@@ -16,7 +16,7 @@ export default function SocketHandler(req, res) {
       console.log('😥: A user disconnected');
     });
     socket.on('createdMessage', (msg) => {
-      socket.broadcast.emit('newIncomingMessage', msg);
+      socket.broadcast.emit('newMessage', msg);
     });
   });
   res.end();
